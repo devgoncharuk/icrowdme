@@ -1,0 +1,191 @@
+@media(max-width: 1200px) {
+
+	.logo{
+		text-align: center;
+	}
+
+	.logo a{
+		margin-left: 0px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 992px){
+
+	/*******header*********/
+
+	.login-wrapper{
+		width: 100%;
+		text-align: center;
+	}
+
+	.login-wrapper>li{
+		width: 100%;
+	}
+	
+	.login{
+		display: inline-block !important;
+		margin-right: 0px;
+	}
+
+	/**********tabs**********/
+	.tabbed{
+		padding: 0px;
+	}
+
+	#tab-nav-1+label>span{
+		padding-left: 20px;
+	}
+
+	.tabbed  label{
+		font-size: 26px;
+	}
+
+	.circle{
+		margin: 0px 10px 0 0;
+	}
+
+	.tabs{
+		max-height: 600px;
+		overflow:hidden;
+		min-height: 330px;
+	}
+	
+	.tabs img{
+		margin: 45px  auto 0;
+	}
+
+	.tabs h3{
+		margin-bottom: 10px;
+	}
+
+	.tabs p{
+		padding-right: 5px;
+		line-height: 28px;
+	}
+
+}
+
+@media(max-width: 992px){
+
+	.browse-left, .browse-right{
+		max-height: none;
+		overflow: auto;
+		width: 100%;
+		float: none;
+		display: block;
+	}
+
+	.browse-left>div, .browse-right>div{
+		float: none;
+		max-width: none;
+		padding-left: 35px;
+	}
+
+	.browse-right img{
+		margin-left: 0px;
+	}
+
+	/*********find properties*********/
+
+	.find-properties, .find-buyers{
+		margin-left:220px;
+	}
+
+	/********project-info************/
+	
+	.projects-info{
+		padding: 15px;
+	}
+
+	.mobile-center>div{
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+
+	.fancy-wrapper{
+		max-height: none;
+	}
+
+	/**********feedbacks***********/
+
+	.feedback-message{
+		width: auto;
+	}
+
+	.brands{
+		display: none;
+	}
+
+	/***********slider-arrows**********/
+
+	.slick-prev, .slick-next{
+		background: none;
+		height: 0px;
+	}
+}
+
+@media(max-width: 767px){
+
+	.navbar-header{
+		text-align: center;
+	}
+	.navbar-nav{
+		margin: 7.5px -15px;
+	}
+	button.navbar-toggle{
+		float: none;
+	}
+	.tabbed{
+		display: none;
+	}
+
+	.our-work p{
+		padding: 0px 15px;
+	}
+
+	.feedback-message{
+		width: auto;
+		height: auto;
+		padding-bottom: 10px;
+	}
+
+	.feedback-info h2{
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+
+	.feedback-info h2+p{
+		padding: 10px 15px;
+		line-height: 17px;
+		font-size: 13px;
+	}
+
+	.feedbacks{
+		margin-top: 0px;
+	}
+	.feedbacks>div{
+		margin-bottom: 10px;
+	}
+}
+
+@media(max-width: 480px){
+
+	.browse-left img, .browse-right img{
+		float: none;
+		margin: 0px;
+	}
+
+	.find-properties, .find-buyers{
+		margin-left: 0px;
+	}
+
+	.browse-left>div, .browse-right>div{
+		text-align: center;
+		padding: 0px;
+	}
+
+	.browse-left p, .browse-right p{
+		padding: 15px;
+	}
+}
